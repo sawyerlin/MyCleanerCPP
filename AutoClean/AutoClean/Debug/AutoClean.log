@@ -1,0 +1,24 @@
+﻿La génération a démarré 11/02/2014 23:12:20.
+     1>Projet "C:\Users\Sawyer\Desktop\Demos\C++\AutoClean\AutoClean\AutoClean.vcxproj" sur le nœud 2 (Rebuild cible(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Cleaner.cpp Logger.cpp Main.cpp RegisterManager.cpp ServiceManager.cpp
+         ServiceManager.cpp
+         RegisterManager.cpp
+         Main.cpp
+         Logger.cpp
+         Cleaner.cpp
+         Génération de code en cours...
+     1>c:\users\sawyer\desktop\demos\c++\autoclean\autoclean\servicemanager.cpp(82): warning C4715: 'ServiceManager::UnistallService' : les chemins de contrôle ne retournent pas tous une valeur
+     1>c:\users\sawyer\desktop\demos\c++\autoclean\autoclean\servicemanager.cpp(59): warning C4715: 'ServiceManager::InstallService' : les chemins de contrôle ne retournent pas tous une valeur
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sawyer\Desktop\Demos\C++\AutoClean\Debug\AutoClean.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sawyer\Desktop\Demos\C++\AutoClean\Debug\AutoClean.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sawyer\Desktop\Demos\C++\AutoClean\Debug\AutoClean.lib" /MACHINE:X86 Debug\Cleaner.obj
+         Debug\Logger.obj
+         Debug\Main.obj
+         Debug\RegisterManager.obj
+         Debug\ServiceManager.obj
+         AutoClean.vcxproj -> C:\Users\Sawyer\Desktop\Demos\C++\AutoClean\Debug\AutoClean.exe
+     1>Génération du projet "C:\Users\Sawyer\Desktop\Demos\C++\AutoClean\AutoClean\AutoClean.vcxproj" terminée (Rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:05.34
