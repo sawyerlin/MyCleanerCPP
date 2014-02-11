@@ -2,7 +2,7 @@
 
 Logger::Logger()
 {
-	_path = "C:\\Users\\Sawyer\\Desktop\\test\\Log.txt";
+	_path = "C:\\Log.txt";
 }
 
 Logger::~Logger()
