@@ -6,9 +6,9 @@ MyCleanerCPP
 3. Open CMD in Administrator Mode
 4. cd $path
 5. Commands
-  a. AutoClean.exe -p "C:\tmp" // Define the path which will be cleaned
-  b. AutoClean.exe -i // Install Service
-  c. AutoClean.exe -d // Unistall Service
+  1. AutoClean.exe -p "C:\tmp" // Define the path which will be cleaned
+  2. AutoClean.exe -i // Install Service
+  3. AutoClean.exe -d // Unistall Service
 
 Open windows run and enter services.msc to open the service manager panel
 Start the service "AutoClean"
